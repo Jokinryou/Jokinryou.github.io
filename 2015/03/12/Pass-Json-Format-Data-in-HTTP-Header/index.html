@@ -3,17 +3,26 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Jokinryou</title>
+  <title>Pass Json Format Data in HTTP Header | Jokinryou</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Jokinryou">
-<meta property="og:url" content="http://yoursite.com/">
+  <meta name="description" content="首先，个人不太喜欢在Http header里传递请求参数，感觉这样不太符合习惯，但是服务器端这么设计，作为客户端开发，有时候也是没办法。不知道在Http header里传递请求参数这种方式是否合理，请各位指教。
+既然服务端是这么设计了，那客户端也就按这个来吧。
+假设我们需要在Http header里传递一个json格式的数组，假设数组为@[@”aa”,@”bb”,@”cc”]。
+那么，为了将数组转">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Pass Json Format Data in HTTP Header">
+<meta property="og:url" content="http://yoursite.com/2015/03/12/Pass-Json-Format-Data-in-HTTP-Header/">
 <meta property="og:site_name" content="Jokinryou">
-<meta property="og:description">
+<meta property="og:description" content="首先，个人不太喜欢在Http header里传递请求参数，感觉这样不太符合习惯，但是服务器端这么设计，作为客户端开发，有时候也是没办法。不知道在Http header里传递请求参数这种方式是否合理，请各位指教。
+既然服务端是这么设计了，那客户端也就按这个来吧。
+假设我们需要在Http header里传递一个json格式的数组，假设数组为@[@”aa”,@”bb”,@”cc”]。
+那么，为了将数组转">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Jokinryou">
-<meta name="twitter:description">
+<meta name="twitter:title" content="Pass Json Format Data in HTTP Header">
+<meta name="twitter:description" content="首先，个人不太喜欢在Http header里传递请求参数，感觉这样不太符合习惯，但是服务器端这么设计，作为客户端开发，有时候也是没办法。不知道在Http header里传递请求参数这种方式是否合理，请各位指教。
+既然服务端是这么设计了，那客户端也就按这个来吧。
+假设我们需要在Http header里传递一个json格式的数组，假设数组为@[@”aa”,@”bb”,@”cc”]。
+那么，为了将数组转">
 
   
   
@@ -121,9 +130,7 @@
   
 </aside>
         
-        <section id="main">
-  
-    <article id="post-Pass-Json-Format-Data-in-HTTP-Header" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-Pass-Json-Format-Data-in-HTTP-Header" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2015/03/12/Pass-Json-Format-Data-in-HTTP-Header/" class="article-date">
   <time datetime="2015-03-12T15:02:27.000Z" itemprop="datePublished">Mar 12 2015</time>
@@ -140,8 +147,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/03/12/Pass-Json-Format-Data-in-HTTP-Header/">Pass Json Format Data in HTTP Header</a>
+    <h1 class="article-title" itemprop="name">
+      Pass Json Format Data in HTTP Header
     </h1>
   
 
@@ -185,11 +192,10 @@
     </footer>
   </div>
   
+    
+  
 </article>
 
-
-  
-  
 </section>
       </div>
       <footer id="footer">
